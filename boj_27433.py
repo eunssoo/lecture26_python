@@ -1,3 +1,5 @@
 N = int(input())
+result = 1
 for i in range(N, 0, -1):
-    print(i)
+    result *= i
+print(result)
