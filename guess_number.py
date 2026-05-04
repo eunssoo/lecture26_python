@@ -10,7 +10,7 @@ success = False
 # 4. 최대 7번 반복하기
 for attempt in range (1, num_try +1):
     # 4-1. 사용자 숫자 입력받기
-    user_num = int(input("숫자를 맞춰보세요: "))
+    user_num = int(input(f"{attempt}번째 시도 - 숫자를 맞춰보세요: "))
     # 4-2. 정답과 비교하기
     if user_num == answer:
         # 맞으면 사용자 승리 후 종료
